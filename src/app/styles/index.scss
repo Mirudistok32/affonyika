@@ -1,1 +1,36 @@
 @import "./normalize.scss";
+@import "./variables.scss";
+
+html,
+body {
+  box-sizing: border-box;
+  min-height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: var(--bg-caef);
+  background: linear-gradient(
+    153deg,
+    var(--bg-caef) 0%,
+    var(--bg-fbe) 2%,
+    var(--bg-afa) 36%,
+    var(--bg-fee) 67%,
+    var(--bg-caef) 91%
+  );
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1480px;
+  margin: 0 auto;
+}
