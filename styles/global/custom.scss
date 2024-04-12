@@ -6,28 +6,40 @@ body {
 }
 
 body {
-  background-color: var(--bg-caef);
+  background-color: $fill-bg-caef;
   background: linear-gradient(
     153deg,
-    var(--bg-caef) 0%,
-    var(--bg-fbe) 2%,
-    var(--bg-afa) 36%,
-    var(--bg-fee) 67%,
-    var(--bg-caef) 91%
+    $fill-bg-caef 0%,
+    $fill-bg-fbe 2%,
+    $fill-bg-afa 36%,
+    $fill-bg-fee 67%,
+    $fill-bg-caef 91%
   );
   margin: 0;
   padding: 0;
+  color: $color-font-black;
+  font-size: 16px;
 }
 
 a {
   text-decoration: none;
+  color: $color-font-black;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 li {
   list-style-type: none;
 }
 
+button {
+  border: none;
+}
+
 .container {
-  max-width: 1480px;
+  max-width: $width-container;
   margin: 0 auto;
 }

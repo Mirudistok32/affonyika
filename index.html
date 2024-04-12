@@ -14,20 +14,18 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
 
-  <title>Моя сборочка</title>
+  <title>Афонька детская парикмахерская в Раменском</title>
 
   <link rel="stylesheet" href="styles/index.scss" />
 </head>
 
 <body>
-  <header class="header">
+  <header class="header" id="header">
     <div class="container">
-      <div class="header__nav">
-        <div class="header__logo">
-          <a class="header__logo_link" href="#">
-            <img class="header__logo_img" src="./assets/svg/logo.svg" />
-          </a>
-        </div>
+      <div class="header__nav_wrapper">
+        <a class="header__logo_link" href="#header">
+          <img class="header__logo_img" src="./assets/svg/logo.svg" />
+        </a>
         <div class="header__wrapper_nav">
           <div class="header__info">
             <b class="header__info_bold">
@@ -64,38 +62,34 @@
               </a>
             </li>
           </ul>
-          <div class="header__contacts_phone">
-            <a class="header__contacts_phone_link" href="#">
-              <img class="header__contacts_phone_link_icon" src="./assets/svg/icon_phone.svg" alt="icon phone" />
-              <p class="header__contacts_phone_link_text">
-                +7 (999) 870-12-95
-              </p>
-            </a>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="header__sign_up">
-        <div class="header__sign_up_picture"></div>
-        <div class="header__sign_up_info">
-          <div class="header__sign_up_info_text">
-            <p class="header__sign_up_info_text_p">
-              решили сделать вашему
-              <b class="header__sign_up_info_text_p_bold">
-                ребенку современную прическу?
-              </b>
-              <b class="header__sign_up_info_text_p_red_bold">запишитесь</b>
-              <b class="header__sign_up_info_text_p_red">на стрижку</b>
-            </p>
-          </div>
-          <button class="header__sign_up_info_btn">
-            Записаться
+          <button class="header__contacts_phone_btn">
+            +7 (999) 870-12-95
           </button>
         </div>
       </div>
     </div>
   </header>
+
+  <section class="sign_up">
+    <div class="container">
+      <div class="sign_up_picture"></div>
+      <div class="sign_up_info">
+        <div class="sign_up_info_text">
+          <p class="sign_up_info_text_p">
+            решили сделать вашему
+            <b class="sign_up_info_text_p_bold">
+              ребенку современную прическу?
+            </b>
+            <b class="sign_up_info_text_p_red_bold">запишитесь</b>
+            <b class="sign_up_info_text_p_red">на стрижку</b>
+          </p>
+        </div>
+        <button class="sign_up_info_btn">
+          Записаться
+        </button>
+      </div>
+    </div>
+  </section>
 
   <section class="about_us">
     <div class="container">

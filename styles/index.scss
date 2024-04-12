@@ -1,3 +1,6 @@
 @import "./global/normalize.scss";
-@import "./global/variables.scss";
+@import "./common/variables.scss";
 @import "./global/custom.scss";
+@import "./common/media_breackpoints.scss";
+
+@import "./sections/header/index.scss";
